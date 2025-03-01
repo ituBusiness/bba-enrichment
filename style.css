@@ -1,0 +1,149 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #156ce7;
+  }
+  
+  /* Header Section */
+  header {
+    img{
+        width: 200px;
+        height: 150px;
+    };
+    background: radial-gradient(circle, #1b7dcd, #05dcc6);
+    background-color: #2d89c7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    
+  }
+  
+  header h1 {
+    margin-bottom: 5px;
+  }
+  
+  /* Navigation Menu */
+  nav {
+ 
+    background-color: #fecd07;
+    padding: 10px 0;
+    font-size: larger;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #3498db;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+    max-width: 1025px;
+    margin: 0 auto;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-inline: 10px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .course {
+    background-color: #eaeaea20;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course:hover {
+    background-color: #f8f681;
+  }
+  
+  /* Course Details (Initially Hidden) */
+  .course-details {
+    display: none;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  contact{
+    color: #d1dce7;
+    font-size: x-large;
+    position: relative;
+  }
+    .social-media-page{
+      width: 100%;
+      text-align: center;
+    }
+    
+    .social-icon1 {
+      margin: 0 10px;
+      color: #ffffff; /* Default icon color */
+      font-size: 60px; /* Size of icons */
+      text-decoration: none;
+      transition: color 0.3s; /* Smooth hover effect */
+    }
+    
+    .social-icon1:hover {
+      color: #eee706; /* Change color on hover */
+      text-shadow: red;
+    }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+   /* Position the icons at the bottom */
+.social-media {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+    color: #fecd07; /* Default icon color */
+    font-size: 24px; /* Size of icons */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth hover effect */
+  }
+  
+  .social-icon:hover {
+    color: #d1dce7; /* Change color on hover */
+    text-shadow: red;
+  }
+  
